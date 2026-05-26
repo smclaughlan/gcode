@@ -4,6 +4,8 @@
 
 [Download](./gcode/WireCoversCutInPosX.gcode)
 
+**Bit: 1/4".**
+
 Zero point 1.25" toward -Y from the non-CNC cut.
 
 ![Program image](./img/CutInPosXZeroPointDistance.png)
@@ -14,6 +16,8 @@ Zero point 1.25" toward -Y from the non-CNC cut.
 
 [Download](./gcode/WireCoversCutInNegX.gcode)
 
+**Bit: 1/4".**
+
 Zero point 1.25" toward -Y from the non-CNC cut.
 
 Same program as Pos X but mirrored across X axis.
@@ -23,6 +27,8 @@ Same program as Pos X but mirrored across X axis.
 ## Cut Out Covers Array
 
 [Download](./gcode/WireCoverCutOutChain.gcode)
+
+**Bit: 1/8".**
 
 Zero point arbitrary but the cuts will be +Y from the zero point. Zero point is offset the same way that [Cut In Pos X](#cut-in-pos-x-for-wires) is offset.
 

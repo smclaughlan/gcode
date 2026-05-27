@@ -1,5 +1,13 @@
 # Cactus Stand Programs
 
+- [Cactus Stand Programs](#cactus-stand-programs)
+  - [Cut In Pos X (For Wires)](#cut-in-pos-x-for-wires)
+  - [Cut In Neg X (For Wires)](#cut-in-neg-x-for-wires)
+  - [Cut Out Covers Array](#cut-out-covers-array)
+  - [Wire Covers Screws Array](#wire-covers-screws-array)
+  - [Rectangle cut](#rectangle-cut)
+
+
 ## Cut In Pos X (For Wires)
 
 [Download](./gcode/CactusStand/WireCoversCutInPosX.gcode)
@@ -49,3 +57,16 @@ Zero point arbitrary but the cuts will be +Y from the zero point. Zero point is 
 Cuts the screw positions for four covers in one program.
 
 ![Program image](./img/CactusStand/ScrewCuts16Array.png)
+
+## Rectangle cut
+
+[Download](./gcode/CactusStand/RectangleCut.gcode)
+
+**Bit: 1/8".**
+**Depth: 1/8".**
+
+Zero point: Center of material/rectangle to be cut.
+
+Cuts 20.5" by 6.75" rectangle. 
+
+![Program image](./img/CactusStand/rectangleCut.png)

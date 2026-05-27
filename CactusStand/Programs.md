@@ -6,6 +6,8 @@
   - [Cut Out Covers Array](#cut-out-covers-array)
   - [Wire Covers Screws Array](#wire-covers-screws-array)
   - [Rectangle cut](#rectangle-cut)
+    - [Rectangle Neg X](#rectangle-neg-x)
+    - [Rectangle Pos X](#rectangle-pos-x)
 
 
 ## Cut In Pos X (For Wires)
@@ -60,7 +62,9 @@ Cuts the screw positions for four covers in one program.
 
 ## Rectangle cut
 
-[Download](./gcode/CactusStand/RectangleCut.gcode)
+### Rectangle Neg X
+
+[Download](./gcode/CactusStand/RectangleCutNegX.gcode)
 
 **Bit: 1/8".**
 
@@ -68,6 +72,20 @@ Cuts the screw positions for four covers in one program.
 
 Zero point: Center of material/rectangle to be cut.
 
-Cuts 20.5" by 6.75" rectangle. 
+Cuts Negative X half of 20.5" by 6.75" rectangle. 
 
-![Program image](./img/CactusStand/rectangleCut.png)
+![Program image](./img/CactusStand/rectangleNegX.png)
+
+### Rectangle Pos X
+
+[Download](./gcode/CactusStand/RectangleCutPosX.gcode)
+
+**Bit: 1/8".**
+
+**Depth: 1/8".**
+
+Zero point: Center of material/rectangle to be cut.
+
+Cuts Positive X half of 20.5" by 6.75" rectangle. 
+
+![Program image](./img/CactusStand/rectanglePosX.png)

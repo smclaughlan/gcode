@@ -1,6 +1,14 @@
 # Cactus Stand Programs
 
 - [Cactus Stand Programs](#cactus-stand-programs)
+  - [Design and Channel Cuts](#design-and-channel-cuts)
+    - [Short Design and Channel Cut Chain](#short-design-and-channel-cut-chain)
+    - [Long Design and Channel Cut Chain Pos Y](#long-design-and-channel-cut-chain-pos-y)
+    - [Long Design and Channel Cut Chain Neg Y](#long-design-and-channel-cut-chain-neg-y)
+  - [Clearing Cuts](#clearing-cuts)
+    - [Short Clearing Cut](#short-clearing-cut)
+    - [Long Clearing Cut Pos Y](#long-clearing-cut-pos-y)
+    - [Long Clearing Cut Neg Y](#long-clearing-cut-neg-y)
   - [Cut In Pos X (For Wires)](#cut-in-pos-x-for-wires)
   - [Cut In Neg X (For Wires)](#cut-in-neg-x-for-wires)
   - [Cut Out Covers Array](#cut-out-covers-array)
@@ -9,10 +17,79 @@
     - [Rectangle Neg Y](#rectangle-neg-y)
     - [Rectangle Pos Y](#rectangle-pos-y)
 
+---
+
+## Design and Channel Cuts
+
+### Short Design and Channel Cut Chain
+
+**Bit: 1/16".**
+
+Zero point touching the -X edge, and centered on material's Y.
+
+![Program image](./img/CactusStand/ShortDesignAndChannelCut.png)
+
+[Download](./gcode/CactusStand/ShortChannelsAndDesign.0625.gcode)
+
+---
+
+### Long Design and Channel Cut Chain Pos Y
+
+**Bit: 1/16".**
+
+Zero point touching the -X edge, and centered on material's Y.
+
+![Program image](./img/CactusStand/LongDesignAndChannelsPosY.png)
+
+[Download](./gcode/CactusStand/LongChannelsAndDesignPosY.0625.gcode)
+
+### Long Design and Channel Cut Chain Neg Y
+
+**Bit: 1/16".**
+
+Zero point touching the -X edge, and centered on material's Y.
+
+![Program image](./img/CactusStand/LongDesignAndChannelsNegY.png)
+
+[Download](./gcode/CactusStand/LongChannelsAndDesignNegY.0625.gcode)
+
+---
+
+## Clearing Cuts
+
+### Short Clearing Cut
+
+**Bit: 1/4".**
+
+Zero point touching the -X edge, and centered on material's Y.
+
+![Program image](./img/CactusStand/ShortClearing.25.png)
+
+[Download](./gcode/CactusStand/ShortClearing.25.gcode)
+
+### Long Clearing Cut Pos Y
+
+**Bit: 1/4".**
+
+Zero point touching the -X edge, and centered on material's Y.
+
+![Program image](./img/CactusStand/LongClearingPosY.png)
+
+[Download](./gcode/CactusStand/LongClearingPosY.25.gcode)
+
+### Long Clearing Cut Neg Y
+
+**Bit: 1/4".**
+
+Zero point touching the -X edge, and centered on material's Y.
+
+![Program image](./img/CactusStand/LongClearingNegY.png)
+
+[Download](./gcode/CactusStand/LongClearingNegY.25.gcode)
+
+---
 
 ## Cut In Pos X (For Wires)
-
-[Download](./gcode/CactusStand/WireCoversCutInPosX.gcode)
 
 **Bit: 1/4".**
 
@@ -22,9 +99,9 @@ Zero point 1.25" toward -Y from the non-CNC cut.
 
 ![Program image](./img/CactusStand/CutInPosX.png)
 
-## Cut In Neg X (For Wires)
+[Download](./gcode/CactusStand/WireCoversCutInPosX.gcode)
 
-[Download](./gcode/CactusStand/WireCoversCutInNegX.gcode)
+## Cut In Neg X (For Wires)
 
 **Bit: 1/4".**
 
@@ -34,9 +111,11 @@ Same program as Pos X but mirrored across X axis.
 
 ![Program image](./img/CactusStand/CutInNegX.png)
 
-## Cut Out Covers Array
+[Download](./gcode/CactusStand/WireCoversCutInNegX.gcode)
 
-[Download](./gcode/CactusStand/WireCoverCutOutChain.gcode)
+---
+
+## Cut Out Covers Array
 
 **Bit: 1/8".**
 
@@ -46,9 +125,9 @@ Cuts four covers in one program.
 
 ![Program image](./img/CactusStand/WireCoverArrayCutOut.png)
 
-## Wire Covers Screws Array
+[Download](./gcode/CactusStand/WireCoverCutOutChain.gcode)
 
-[Download](./gcode/CactusStand/WireCoversScrewCut16.gcode)
+## Wire Covers Screws Array
 
 **Bit: 1/16".**
 
@@ -60,11 +139,13 @@ Cuts the screw positions for four covers in one program.
 
 ![Program image](./img/CactusStand/ScrewCuts16Array.png)
 
+[Download](./gcode/CactusStand/WireCoversScrewCut16.gcode)
+
+---
+
 ## Rectangle cut
 
 ### Rectangle Neg Y
-
-[Download](./gcode/CactusStand/RectangleCutNegY.gcode)
 
 **Bit: 1/8".**
 
@@ -76,9 +157,9 @@ Cuts Negative Y half of 20.5" by 6.75" rectangle.
 
 ![Program image](./img/CactusStand/rectanglecutNegY.png)
 
-### Rectangle Pos Y
+[Download](./gcode/CactusStand/RectangleCutNegY.gcode)
 
-[Download](./gcode/CactusStand/RectangleCutPosY.gcode)
+### Rectangle Pos Y
 
 **Bit: 1/8".**
 
@@ -89,3 +170,5 @@ Zero point: Center of material/rectangle to be cut.
 Cuts Positive Y half of 20.5" by 6.75" rectangle. 
 
 ![Program image](./img/CactusStand/rectanglecutPosY.png)
+
+[Download](./gcode/CactusStand/RectangleCutPosY.gcode)

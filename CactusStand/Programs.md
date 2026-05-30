@@ -16,6 +16,7 @@
   - [Rectangle cut](#rectangle-cut)
     - [Rectangle Neg Y](#rectangle-neg-y)
     - [Rectangle Pos Y](#rectangle-pos-y)
+  - [Feet Cut](#feet-cut)
 
 ---
 
@@ -172,3 +173,15 @@ Cuts Positive Y half of 20.5" by 6.75" rectangle.
 ![Program image](./img/CactusStand/rectanglecutPosY.png)
 
 [Download](./gcode/CactusStand/RectangleCutPosY.gcode)
+
+---
+
+## Feet Cut
+
+**Bit: 1/8".**
+
+Zero point: Center of material/cuts.
+
+![Program image](./img/CactusStand/Feet.png)
+
+[Download](./gcode/CactusStand/CutFeet.gcode)
